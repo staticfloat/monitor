@@ -1,0 +1,142 @@
+#!/usr/bin/env python
+# This Python file uses the following encoding: utf-8
+
+import zmq, struct, os, sys, subprocess, psutil, argparse
+from time import sleep
+
+class net(object):
+	def __init__(self, totalUp, totalDown, upPerSec, downPerSec):
+		self.totalUp = totalUp
+		self.totalDown = totalDown
+		self.upPerSec = upPerSec
+		self.downPerSec = downPerSec
+
+class cpu(object):
+	def __init__(self, userTime, sysTime, user_pct, sys_pct):
+		self.userTime = userTime
+		self.sysTime = sysTime
+		self.user_pct = user_pct
+		self.sys_pct = sys_pct
+
+class pstat(object):
+	def __init__(self, pid, message):
+		data = struct.unpack("llllqqff", message)
+		self.pid = pid
+		self.net = net(*data[0:4])
+		self.cpu = cpu(*data[4:8])
+
+	def __repr__(self):
+		return "[%5u]\tup:\t%d\t(%d/s)\tdown:\t%d\t(%d/s)\t%.2f%%"%(self.pid, self.net.totalUp, self.net.upPerSec, self.net.totalDown, self.net.downPerSec, self.cpu.sys_pct + self.cpu.user_pct)
+
+
+def humanize(num):
+    for x in ['B','KB','MB','GB']:
+        if num < 1024.0 and num > -1024.0:
+            return "%3.1f%s" % (num, x)
+        num /= 1024.0
+    return "%3.1f%s" % (num, 'TB')
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-d', dest='debug', action='store_true' )
+parser.add_argument('-s', dest='session', action='store' )
+
+args = parser.parse_args()
+
+# See if we're within tmux, if not, quit out!
+if not args.session:
+	if not "TMUX" in os.environ:
+		sys.exit(0)
+	if not len(os.environ["TMUX"]):
+		sys.exit(0)
+
+	# Infer the session
+	args.session = subprocess.check_output(["tmux", "display-message", "-p", "#S"]).strip()
+
+# Check to see if this session is already running, if so, kill it!
+session_filename = "/tmp/mundo_cli.%s"%(str(args.session))
+try:
+	session_file = open(session_filename, 'r+')
+	mundo_pids = session_file.read().split()
+	mundo_pids = [int(pid) for pid in pids]
+
+	for pid in pids:
+		try:
+			os.kill(pid, signal.SIGKILL)
+		except:
+			pass
+
+	session_file.truncate(0)
+	session_file.close()
+except:
+	pass
+
+session_file = open(session_filename, 'a')
+session_file.write("%s\n"%(str(args.session)))
+session_file.close()
+
+# Get the PIDs from this tmux window, (if we can)
+bash_pids = subprocess.check_output(["tmux", "list-panes", "-s", "-t", args.session, "-F", "#{pane_pid}"]).split()
+PIDs = [psutil.Process(int(pid)) for pid in bash_pids]
+
+# Now expand those PIDs to all children
+children_processes = [proc.get_children(recursive=True) for proc in PIDs]
+
+# Add onto PIDs
+PIDs = PIDs + [item for sublist in children_processes for item in sublist]
+
+# Convert from psutil.Process thingamajig's back into pids
+PIDs = [proc.pid for proc in PIDs]
+
+
+ctx = zmq.Context()
+sock = ctx.socket(zmq.REQ)
+sock.connect("ipc:///tmp/mundo.sock")
+
+# Get all the stats
+stats = []
+for pid in PIDs:
+	sock.send(struct.pack("I", pid))
+
+	msg = sock.recv()
+	# If we get nothing back; the monitor knows naaasiiing about that PID
+	if not len(msg):
+		continue
+
+	new_pstat = pstat(pid, msg)
+	stats.append(new_pstat)
+
+# Now, sum together the statistics so that we can get a summary for all these children_processes
+summary = {'CPU':0, 'up':0, 'down':0}
+for s in stats:
+	summary['CPU'] += s.cpu.sys_pct + s.cpu.user_pct
+	summary['up'] += s.net.upPerSec
+	summary['down'] += s.net.downPerSec
+
+
+def colorize(val, thresholds, message):
+	# green, yellow, red
+	colors = ["#[nobright fg=green]", "#[bright fg=yellow]", "#[bright fg=red]"]
+	ending = "#[fg=default]"
+
+	if args.debug:
+		colors = ["\x1b[92m", "\x1b[93m", "\x1b[91m"]
+		ending = "\x1b[0m"
+
+	color_idx = len(thresholds)
+	for idx in xrange(len(thresholds)):
+		if val <= thresholds[idx]:
+			color_idx = idx
+			break
+
+
+	return colors[color_idx] + message + ending
+
+cpu_thresholds = [60, 90]
+cpu_string = colorize(summary['CPU'], cpu_thresholds, '%4.1f%%'%(summary['CPU']))
+
+net_thresholds = [100*1024, 3*1024*1024]
+down_string = colorize(summary['down'], net_thresholds, "▼" + humanize(summary['down']))
+up_string = colorize(summary['up'], net_thresholds, "▲" + humanize(summary['up']))
+print '%s, %s %s'%(cpu_string, down_string, up_string)
+
+

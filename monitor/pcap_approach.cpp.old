@@ -1,0 +1,377 @@
+#include <assert.h>
+#include <errno.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <sys/sysctl.h>
+#include <sys/proc_info.h>
+#include <libproc.h>
+#include <string.h>
+#include <algorithm>
+#include <map>
+#include <vector>
+#include <arpa/inet.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <net/ethernet.h>
+#include <netinet/ip.h>
+#include <netinet/ip6.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <pcap.h>
+#include <unistd.h>
+#include <ifaddrs.h>
+using namespace std;
+
+
+typedef struct {
+    unsigned short local, remote;
+    pid_t pid;
+} connection;
+
+typedef struct {
+    pid_t pid;
+    unsigned long totalDown;
+    unsigned long totalUp;
+    unsigned long downPerInterval;
+    unsigned long upPerInterval;
+} traffic;
+
+
+map<pid_t, vector<connection>> * procMap;
+map<unsigned short, vector<connection>> * sockMap;
+map<pid_t, traffic> * procTraffic;
+
+const char * getPIDPath( pid_t pid ) {
+    static char pathBuffer[PROC_PIDPATHINFO_MAXSIZE];
+    bzero(pathBuffer, PROC_PIDPATHINFO_MAXSIZE);
+    proc_pidpath(pid, pathBuffer, PROC_PIDPATHINFO_MAXSIZE);
+    
+    return pathBuffer;
+}
+
+
+void getProcSockMapping() {
+    procMap->clear();
+    sockMap->clear();
+    
+    // Get listing of PIDs
+    int numProcs = proc_listpids(PROC_ALL_PIDS, 0, NULL, 0);
+    pid_t * pids = (pid_t *) malloc(numProcs*sizeof(pid_t));
+    bzero(pids, numProcs*sizeof(pid_t));
+    proc_listpids(PROC_ALL_PIDS, 0, pids, numProcs*sizeof(pid_t));
+    
+    sort( pids, pids + numProcs );
+    
+    // Iterate through all processes
+    for( int i=0; i<numProcs; ++i ) {
+        // Don't bother with NULL pids
+        if( pids[i] ) {
+            /*
+            const char * path = getPIDPath( pids[i] );
+            if( strcmp( path + strlen(path) - 2, "nc") == 0 )
+                printf("[%d] FOUND IT FOUND IT FOUND IT\n", pids[i] );
+             */
+            
+            // Get file descriptor listing for this pid
+            int bufferSize = proc_pidinfo(pids[i], PROC_PIDLISTFDS, 0, 0, 0);
+            struct proc_fdinfo *procFDInfo = (struct proc_fdinfo *)malloc(bufferSize);
+            memset(procFDInfo, 0, bufferSize);
+            proc_pidinfo(pids[i], PROC_PIDLISTFDS, 0, procFDInfo, bufferSize);
+            int numFDs = bufferSize / PROC_PIDLISTFD_SIZE;
+            
+            // Iterate through all file descriptors
+            for(int j = 0; j < numFDs; j++) {
+                // Only pay attention to socket fd's
+                if( procFDInfo[j].proc_fdtype == PROX_FDTYPE_SOCKET ) {
+                    struct socket_fdinfo socketInfo;
+                    memset(&socketInfo, 0, sizeof(socket_fdinfo));
+                    int bytesUsed = proc_pidfdinfo(pids[i], procFDInfo[j].proc_fd, PROC_PIDFDSOCKETINFO, &socketInfo, PROC_PIDFDSOCKETINFO_SIZE);
+                    // Check to make sure we read in the proper amount of data
+                    if (bytesUsed == PROC_PIDFDSOCKETINFO_SIZE) {
+                        if(socketInfo.psi.soi_family == AF_INET && (socketInfo.psi.soi_kind == SOCKINFO_TCP)) { // || socketInfo.psi.soi_kind == SOCKINFO_IN)) {
+                            connection c;
+                            c.pid = pids[i];
+                            c.local = (unsigned short)ntohs(socketInfo.psi.soi_proto.pri_tcp.tcpsi_ini.insi_lport);
+                            c.remote = (unsigned short)ntohs(socketInfo.psi.soi_proto.pri_tcp.tcpsi_ini.insi_fport);
+                            if( c.local != 0 ) {
+                                (*procMap)[pids[i]].push_back(c);
+                                (*sockMap)[c.local].push_back(c);
+                                
+                                for( int k = (*sockMap)[c.local].size()-2; k>=0; --k ) {
+                                    if( (*sockMap)[c.local][k].pid != c.pid ) {
+                                        printf("local port %d has diff. PIDs (%d, %d)!\n", c.local, c.pid, (*sockMap)[c.local][k].pid);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            free( procFDInfo );
+        }
+    }
+    free(pids);
+}
+
+void printProcSockMapping() {
+    for( map<pid_t, vector<connection>>::iterator itty = procMap->begin(); itty != procMap->end(); ++itty ) {
+        pid_t pid = (*itty).first;
+        const char * path = getPIDPath(pid);
+        
+        printf("[%d] - %s\n", pid, path );
+        for( vector<connection>::iterator pitty = (*itty).second.begin(); pitty != (*itty).second.end(); ++pitty ) {
+            printf("\t[tcp] <%d, %d>\n", (*pitty).local, (*pitty).remote );
+        }
+    }
+    
+}
+
+// This is my pcap context
+pcap_t * pcap_ctx;
+
+void etherString( char * ether, uint8_t * addr ) {
+	sprintf( ether, "%02x:%02x:%02x:%02x:%02x:%02x", addr[0], addr[1], addr[2], addr[3], addr[4], addr[5] );
+}
+
+void ip4String( char * ip, in_addr * addr ) {
+    inet_ntop(AF_INET, addr, ip, INET_ADDRSTRLEN);
+}
+
+void ip6String( char * ip, in6_addr * addr ) {
+    inet_ntop(AF_INET6, addr, ip, INET6_ADDRSTRLEN);
+}
+
+vector<sockaddr> localAddresses;
+
+void getLocalAddress(const char * dev) {
+    struct ifaddrs * ifap;
+    if( getifaddrs( &ifap) != 0 ) {
+        fprintf( stderr, "getifaddrs() failed: %s\n", strerror(errno));
+        return;
+    }
+    
+    while( ifap != NULL ) {
+        if( strcmp(ifap->ifa_name, dev) == 0 && (ifap->ifa_addr->sa_family == AF_INET || ifap->ifa_addr->sa_family == AF_INET6) ) {
+            localAddresses.push_back(*ifap->ifa_addr);
+            
+            char addr[INET6_ADDRSTRLEN];
+            getnameinfo(ifap->ifa_addr, ifap->ifa_addr->sa_len, addr, INET6_ADDRSTRLEN, NULL, 0, NI_NUMERICHOST);
+            printf("%s: %s\n", ifap->ifa_name, addr );
+        }
+        
+        ifap = ifap->ifa_next;
+    }
+    
+    freeifaddrs(ifap);
+}
+
+bool initPcap() {
+	char *dev, errbuff[PCAP_ERRBUF_SIZE];
+	dev = pcap_lookupdev(errbuff);
+	if (dev == NULL) {
+		fprintf(stderr, "Couldn't find default device: %s\n", errbuff);
+		return false;
+	}
+	
+    errbuff[0] = NULL;
+	pcap_ctx = pcap_open_live( dev, BUFSIZ, 0, 1000, errbuff);
+	if( pcap_ctx == NULL ) {
+		fprintf( stderr, "pcap_open_live() failed: %s", errbuff );
+		return false;
+	}
+	
+	if( errbuff[0] != 0 ) {
+        fprintf( stderr, "pcap_open_live() warning: %s", errbuff );
+	}
+	
+    errbuff[0] = NULL;
+	if( pcap_setnonblock( pcap_ctx, 1, errbuff) == -1 ) {
+		fprintf( stderr, "pcap_setnonblock() failed: %s", errbuff );
+		return false;
+	}
+    
+    getLocalAddress( dev );
+    return true;
+}
+
+void callback( uint8_t * useless, const struct pcap_pkthdr * hdr, const uint8_t * packet ) {
+	//Let's get the ether header
+	struct ether_header * ether = (struct ether_header *) packet;
+    packet += sizeof(ether_header);
+    char ipSrc[INET6_ADDRSTRLEN], ipDst[INET6_ADDRSTRLEN];
+    
+    void *ip_hdr;
+    unsigned char ip_proto = 0;
+    unsigned long datalen = sizeof(ether_header);
+    
+    // Calculate full payload length, ip src/dst and location of tcp/udp headers
+    unsigned short ether_type = ntohs(ether->ether_type);
+    switch( ether_type ) {
+        case ETHERTYPE_IP: {
+            ip_hdr = (ip *)packet;
+            packet += 4*((ip *)ip_hdr)->ip_hl;
+            datalen += ntohs(((ip *)ip_hdr)->ip_len);
+            
+            ip4String(ipSrc, &((ip *)ip_hdr)->ip_src );
+            ip4String(ipDst, &((ip *)ip_hdr)->ip_dst );
+            ip_proto = ((ip *)ip_hdr)->ip_p;
+            break; }
+        case ETHERTYPE_IPV6: {
+            ip_hdr = (void *)(packet + sizeof(ether_header));
+            packet += sizeof(ip6_hdr);
+            datalen += ntohs(((ip6_hdr *)ip_hdr)->ip6_ctlun.ip6_un1.ip6_un1_plen);
+            
+            ip6String(ipSrc, &((ip6_hdr *)ip_hdr)->ip6_src );
+            ip6String(ipDst, &((ip6_hdr *)ip_hdr)->ip6_dst );
+            ip_proto = ((ip6_hdr *)ip_hdr)->ip6_ctlun.ip6_un1.ip6_un1_nxt;
+            break; }
+        default:
+            return;
+    }
+    
+    // Find src/dst ports
+    unsigned short portSrc, portDst;
+    switch( ip_proto ) {
+        case IPPROTO_TCP: {
+            struct tcphdr * tcp_hdr = (struct tcphdr *)packet;
+            portSrc = ntohs(tcp_hdr->th_sport);
+            portDst = ntohs(tcp_hdr->th_dport);
+            break; }
+        case IPPROTO_UDP: {
+            struct udphdr * udp_hdr = (struct udphdr *)packet;
+            portSrc = ntohs(udp_hdr->uh_sport);
+            portDst = ntohs(udp_hdr->uh_dport);
+            break; }
+        default:
+            return;
+    }
+    
+    // Find whether this packet was incoming/outgoing
+    int incoming = -1;
+    for( vector<sockaddr>::iterator itty = localAddresses.begin(); itty != localAddresses.end(); ++itty ) {
+        if( (*itty).sa_family == AF_INET6 && ether_type == ETHERTYPE_IPV6 ) {
+            sockaddr_in6 & sa = (sockaddr_in6 &)(*itty);
+            if( memcmp( &((ip6_hdr *)ip_hdr)->ip6_src, &sa.sin6_addr, sizeof(in6_addr)) == 0 )
+                incoming = 0;
+            if( memcmp( &((ip6_hdr *)ip_hdr)->ip6_dst, &sa.sin6_addr, sizeof(in6_addr)) == 0 )
+                incoming = 1;
+        } else {
+            if( (*itty).sa_family == AF_INET && ether_type == ETHERTYPE_IP ) {
+                sockaddr_in & sa = (sockaddr_in &)(*itty);
+                if( ((ip *)ip_hdr)->ip_src.s_addr == sa.sin_addr.s_addr )
+                    incoming = 0;
+                if( ((ip *)ip_hdr)->ip_dst.s_addr == sa.sin_addr.s_addr )
+                    incoming = 1;
+            }
+        }
+    }
+    
+    if( incoming == -1 )
+        return;
+    
+    printf("[%zu] (%s:%d -> %s:%d)\n", datalen, ipSrc, portSrc, ipDst, portDst);
+    
+    // Now match local port to processes
+    getProcSockMapping();
+    unsigned short localPort = incoming ? portDst : portSrc;
+    unsigned short remotePort = incoming ? portSrc : portDst;
+    map<unsigned short, vector<connection>>::iterator itty;
+    itty = sockMap->find( localPort );
+    if( itty == sockMap->end() ) {
+        fprintf( stderr, "Could not find process owning local port %d->%d\n", localPort, remotePort );
+        printProcSockMapping();
+        return;
+    }
+    
+    // Try to match remote port to disambiguate possible duplicate local ports
+    vector<connection> possibilities;
+    for( vector<connection>::iterator jitty = (*itty).second.begin(); jitty != (*itty).second.end(); ++jitty ) {
+        // Match protocol, and remote port (unless this is a listening socket)
+        if( ip_proto == IPPROTO_TCP && ((*jitty).remote == remotePort || (*jitty).remote == 0) )
+            possibilities.push_back( *jitty );
+    }
+    
+    if( !possibilities.size() ) {
+        fprintf( stderr, "Could not find matching remote port socket for %d->%d\n", localPort, remotePort );
+        return;
+    }
+    
+    if( possibilities.size() > 1 ) {
+        fprintf( stderr, "Multiple possible PIDs!: [");
+        for( vector<connection>::iterator pitty = possibilities.begin(); pitty != possibilities.end(); ++pitty ) {
+            fprintf( stderr, "%d, ", (*pitty).pid );
+        }
+        fprintf( stderr, "]\n");
+        return;
+    }
+    
+    connection c = possibilities[0];
+    
+    if( procTraffic->find(c.pid) == procTraffic->end() ) {
+        (*procTraffic)[c.pid].pid = c.pid;
+    }
+    
+    if( incoming ) {
+        (*procTraffic)[c.pid].totalDown += datalen;
+        (*procTraffic)[c.pid].downPerInterval += datalen;
+    } else {
+        (*procTraffic)[c.pid].totalUp += datalen;
+        (*procTraffic)[c.pid].upPerInterval += datalen;
+    }
+}
+
+
+bool sortByTotalDownTraffic( traffic i, traffic j) {
+    return (i.totalDown<j.totalDown);
+}
+
+
+void printDataUsage() {
+    vector<traffic> v;
+    for( map<pid_t, traffic>::iterator itty = procTraffic->begin(); itty != procTraffic->end(); ++itty ) {
+        v.push_back((*itty).second);
+    }
+    
+    sort(v.begin(), v.end(), sortByTotalDownTraffic);
+    
+    for( int i=0; i<v.size(); ++i ) {
+        printf("[%d] - <%d, %d>\n", v[i].pid, v[i].totalDown, v[i].totalUp );
+    }
+    if( v.size() )
+        printf("\n");
+}
+
+
+
+int main( void ) {
+    if( !initPcap() ) {
+        fprintf( stderr, "Could not initialize libpcap!\n");
+        return -1;
+    }
+    
+    procMap = new map<pid_t, vector<connection>>();
+    sockMap = new map<unsigned short, vector<connection>>();
+    procTraffic = new map<pid_t, traffic>();
+    time_t lastSec = time(NULL);
+    
+    getProcSockMapping();
+    while( true ) {
+        usleep(1000*10);
+        printf(".");
+        fflush(stdout);
+        fflush(stderr);
+        pcap_dispatch(pcap_ctx, 100, callback, NULL );
+        
+        time_t currSec = time(NULL);
+        if( currSec != lastSec ) {
+            printDataUsage();
+            lastSec = currSec;
+        }
+    }
+    
+    //printProcSockMapping();
+    delete procMap;
+    delete sockMap;
+    return 0;
+}

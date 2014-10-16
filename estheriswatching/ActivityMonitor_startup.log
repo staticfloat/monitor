@@ -1,0 +1,1248 @@
+6/17/14 12:52:46.165 PM	Activity Monitor[40174]	NStatManagerCreate:2439 created manager 0x7fd46b800000
+6/17/14 12:52:46.165 PM	Activity Monitor[40174]	NStatManagerAddAllTCP:2297 adding all TCP sources
+6/17/14 12:52:46.165 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e024d0
+6/17/14 12:52:46.165 PM	Activity Monitor[40174]	NStatManagerAddAllUDP:2318 adding all UDP sources
+6/17/14 12:52:46.165 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.166 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e024d0
+6/17/14 12:52:46.166 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e02c40
+6/17/14 12:52:46.166 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.166 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e02c40
+6/17/14 12:52:46.166 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e1fa20
+6/17/14 12:52:46.167 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.167 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e1fa20
+6/17/14 12:52:46.167 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d08a60
+6/17/14 12:52:46.167 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.167 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d08a60
+6/17/14 12:52:46.167 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d15970
+6/17/14 12:52:46.168 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.168 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d15970
+6/17/14 12:52:46.168 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d15b10
+6/17/14 12:52:46.168 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.169 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d15b10
+6/17/14 12:52:46.169 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d15cb0
+6/17/14 12:52:46.169 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.169 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d15cb0
+6/17/14 12:52:46.169 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d15e50
+6/17/14 12:52:46.169 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.169 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d15e50
+6/17/14 12:52:46.169 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d15ff0
+6/17/14 12:52:46.170 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.170 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d15ff0
+6/17/14 12:52:46.170 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d16190
+6/17/14 12:52:46.170 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.171 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d16190
+6/17/14 12:52:46.171 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d0e3f0
+6/17/14 12:52:46.171 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.172 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d0e3f0
+6/17/14 12:52:46.172 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d16330
+6/17/14 12:52:46.172 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.172 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d16330
+6/17/14 12:52:46.172 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d0bab0
+6/17/14 12:52:46.172 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.172 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d0bab0
+6/17/14 12:52:46.172 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e1da20
+6/17/14 12:52:46.173 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.173 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e1da20
+6/17/14 12:52:46.173 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e1fbc0
+6/17/14 12:52:46.173 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.173 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e1fbc0
+6/17/14 12:52:46.173 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d079e0
+6/17/14 12:52:46.173 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.174 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d079e0
+6/17/14 12:52:46.174 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d0a380
+6/17/14 12:52:46.174 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.174 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d0a380
+6/17/14 12:52:46.175 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e12fa0
+6/17/14 12:52:46.175 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.175 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e12fa0
+6/17/14 12:52:46.175 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e19fc0
+6/17/14 12:52:46.175 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.175 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e19fc0
+6/17/14 12:52:46.176 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e1cdb0
+6/17/14 12:52:46.176 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.176 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e1cdb0
+6/17/14 12:52:46.176 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e0a570
+6/17/14 12:52:46.176 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.176 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e0a570
+6/17/14 12:52:46.176 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e0e1a0
+6/17/14 12:52:46.176 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.176 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e0e1a0
+6/17/14 12:52:46.176 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e07b60
+6/17/14 12:52:46.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e07b60
+6/17/14 12:52:46.177 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e0ed00
+6/17/14 12:52:46.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e0ed00
+6/17/14 12:52:46.177 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e1b010
+6/17/14 12:52:46.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e1b010
+6/17/14 12:52:46.177 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e0f500
+6/17/14 12:52:46.178 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.178 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e0f500
+6/17/14 12:52:46.178 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e03690
+6/17/14 12:52:46.178 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.178 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e03690
+6/17/14 12:52:46.178 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e0ca90
+6/17/14 12:52:46.178 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.178 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e0ca90
+6/17/14 12:52:46.178 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e11b30
+6/17/14 12:52:46.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e11b30
+6/17/14 12:52:46.179 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e13300
+6/17/14 12:52:46.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e13300
+6/17/14 12:52:46.179 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e021a0
+6/17/14 12:52:46.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e021a0
+6/17/14 12:52:46.180 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e12940
+6/17/14 12:52:46.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e12940
+6/17/14 12:52:46.180 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e12ae0
+6/17/14 12:52:46.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e12ae0
+6/17/14 12:52:46.180 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e0a060
+6/17/14 12:52:46.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e0a060
+6/17/14 12:52:46.181 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e0a200
+6/17/14 12:52:46.181 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.181 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e0a200
+6/17/14 12:52:46.181 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e0e500
+6/17/14 12:52:46.181 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.181 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e0e500
+6/17/14 12:52:46.181 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c06a90
+6/17/14 12:52:46.181 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.181 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c06a90
+6/17/14 12:52:46.182 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c082f0
+6/17/14 12:52:46.182 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.182 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c082f0
+6/17/14 12:52:46.182 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c08490
+6/17/14 12:52:46.182 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.182 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c08490
+6/17/14 12:52:46.183 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c08630
+6/17/14 12:52:46.183 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.183 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c08630
+6/17/14 12:52:46.183 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c087d0
+6/17/14 12:52:46.183 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.183 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c087d0
+6/17/14 12:52:46.183 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c08970
+6/17/14 12:52:46.183 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.184 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c08970
+6/17/14 12:52:46.184 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c08b10
+6/17/14 12:52:46.184 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.184 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c08b10
+6/17/14 12:52:46.184 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c08cb0
+6/17/14 12:52:46.184 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.184 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c08cb0
+6/17/14 12:52:46.184 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c08e50
+6/17/14 12:52:46.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c08e50
+6/17/14 12:52:46.185 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c08ff0
+6/17/14 12:52:46.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c08ff0
+6/17/14 12:52:46.185 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c09190
+6/17/14 12:52:46.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c09190
+6/17/14 12:52:46.185 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c09330
+6/17/14 12:52:46.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c09330
+6/17/14 12:52:46.186 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c094d0
+6/17/14 12:52:46.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c094d0
+6/17/14 12:52:46.186 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c09670
+6/17/14 12:52:46.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c09670
+6/17/14 12:52:46.186 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c09810
+6/17/14 12:52:46.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.187 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c09810
+6/17/14 12:52:46.187 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c099b0
+6/17/14 12:52:46.187 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.187 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c099b0
+6/17/14 12:52:46.187 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c09b50
+6/17/14 12:52:46.187 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.187 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c09b50
+6/17/14 12:52:46.187 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c09cf0
+6/17/14 12:52:46.187 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.188 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c09cf0
+6/17/14 12:52:46.188 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c09e90
+6/17/14 12:52:46.188 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.188 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c09e90
+6/17/14 12:52:46.188 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0a030
+6/17/14 12:52:46.188 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.189 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0a030
+6/17/14 12:52:46.189 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0a1d0
+6/17/14 12:52:46.189 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.189 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0a1d0
+6/17/14 12:52:46.189 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0a370
+6/17/14 12:52:46.189 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.189 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0a370
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0a510
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0a510
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0a6b0
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0a6b0
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0a850
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0a850
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0a9f0
+6/17/14 12:52:46.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0a9f0
+6/17/14 12:52:46.191 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0ab90
+6/17/14 12:52:46.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0ab90
+6/17/14 12:52:46.191 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0ad30
+6/17/14 12:52:46.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0ad30
+6/17/14 12:52:46.191 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0aed0
+6/17/14 12:52:46.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0aed0
+6/17/14 12:52:46.192 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0b070
+6/17/14 12:52:46.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0b070
+6/17/14 12:52:46.192 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0b210
+6/17/14 12:52:46.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0b210
+6/17/14 12:52:46.192 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0b3b0
+6/17/14 12:52:46.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0b3b0
+6/17/14 12:52:46.192 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0b550
+6/17/14 12:52:46.193 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.193 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0b550
+6/17/14 12:52:46.193 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0b6f0
+6/17/14 12:52:46.193 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.193 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0b6f0
+6/17/14 12:52:46.193 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0b890
+6/17/14 12:52:46.193 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.193 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0b890
+6/17/14 12:52:46.193 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0ba30
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0ba30
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0bbd0
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0bbd0
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0bd70
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0bd70
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0bf10
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0bf10
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0c0b0
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0c0b0
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0c250
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0c250
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0c3f0
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0c3f0
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0c590
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0c590
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0c730
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0c730
+6/17/14 12:52:46.196 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0c8d0
+6/17/14 12:52:46.196 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.196 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0c8d0
+6/17/14 12:52:46.196 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0ca70
+6/17/14 12:52:46.196 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.196 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0ca70
+6/17/14 12:52:46.196 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0cc10
+6/17/14 12:52:46.196 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.196 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0cc10
+6/17/14 12:52:46.196 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0cdb0
+6/17/14 12:52:46.197 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.197 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0cdb0
+6/17/14 12:52:46.197 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0cf50
+6/17/14 12:52:46.197 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.197 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0cf50
+6/17/14 12:52:46.197 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0d0f0
+6/17/14 12:52:46.197 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.197 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0d0f0
+6/17/14 12:52:46.198 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0d290
+6/17/14 12:52:46.198 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.198 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0d290
+6/17/14 12:52:46.198 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0d430
+6/17/14 12:52:46.198 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.198 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0d430
+6/17/14 12:52:46.198 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0d5d0
+6/17/14 12:52:46.198 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.198 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0d5d0
+6/17/14 12:52:46.198 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0d770
+6/17/14 12:52:46.199 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.199 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0d770
+6/17/14 12:52:46.199 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0d910
+6/17/14 12:52:46.199 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.199 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0d910
+6/17/14 12:52:46.199 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0dab0
+6/17/14 12:52:46.199 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.200 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0dab0
+6/17/14 12:52:46.200 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0dc50
+6/17/14 12:52:46.202 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.202 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0dc50
+6/17/14 12:52:46.202 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d1c560
+6/17/14 12:52:46.202 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.202 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d1c560
+6/17/14 12:52:46.202 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d1c700
+6/17/14 12:52:46.203 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.203 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d1c700
+6/17/14 12:52:46.203 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0e030
+6/17/14 12:52:46.203 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.203 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0e030
+6/17/14 12:52:46.203 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0e1d0
+6/17/14 12:52:46.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0e1d0
+6/17/14 12:52:46.204 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0e370
+6/17/14 12:52:46.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0e370
+6/17/14 12:52:46.204 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469f04a40
+6/17/14 12:52:46.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469f04a40
+6/17/14 12:52:46.204 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469f04be0
+6/17/14 12:52:46.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.205 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469f04be0
+6/17/14 12:52:46.205 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469f04d80
+6/17/14 12:52:46.205 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.205 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469f04d80
+6/17/14 12:52:46.205 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469f09710
+6/17/14 12:52:46.205 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.205 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469f09710
+6/17/14 12:52:46.205 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469f098b0
+6/17/14 12:52:46.205 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.206 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469f098b0
+6/17/14 12:52:46.206 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0e510
+6/17/14 12:52:46.206 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.206 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0e510
+6/17/14 12:52:46.206 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469c0e6b0
+6/17/14 12:52:46.206 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.206 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469c0e6b0
+6/17/14 12:52:46.207 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e212c0
+6/17/14 12:52:46.208 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.208 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e212c0
+6/17/14 12:52:46.208 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e20df0
+6/17/14 12:52:46.208 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.208 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e20df0
+6/17/14 12:52:46.208 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469e21460
+6/17/14 12:52:46.208 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.208 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469e21460
+6/17/14 12:52:46.209 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d1c8a0
+6/17/14 12:52:46.209 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.209 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d1c8a0
+6/17/14 12:52:46.209 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d1ca40
+6/17/14 12:52:46.209 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.209 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d1ca40
+6/17/14 12:52:46.209 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d1cbe0
+6/17/14 12:52:46.210 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.210 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d1cbe0
+6/17/14 12:52:46.210 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d1ce20
+6/17/14 12:52:46.210 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.210 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d1ce20
+6/17/14 12:52:46.210 PM	Activity Monitor[40174]	NStatManagerAllocateSource:329 allocated new source 0x7fd469d1cfc0
+6/17/14 12:52:46.210 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:486 received SRC_ADDED message
+6/17/14 12:52:46.210 PM	Activity Monitor[40174]	NStatManagerHandleSrcAdded:496 calling the AddSource callback for 0x7fd469d1cfc0
+6/17/14 12:52:46.280 PM	Activity Monitor[40174]	NStatManagerQueryAllSources:2106 querying all sources
+6/17/14 12:52:46.281 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.281 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1cfc0
+6/17/14 12:52:46.281 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.281 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1ce20
+6/17/14 12:52:46.281 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.281 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1cbe0
+6/17/14 12:52:46.281 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.282 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1ca40
+6/17/14 12:52:46.282 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.282 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1c8a0
+6/17/14 12:52:46.282 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.282 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e21460
+6/17/14 12:52:46.282 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.282 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e20df0
+6/17/14 12:52:46.282 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.283 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e212c0
+6/17/14 12:52:46.283 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.283 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0e6b0
+6/17/14 12:52:46.283 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.283 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0e510
+6/17/14 12:52:46.283 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.284 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469f098b0
+6/17/14 12:52:46.284 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.284 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469f09710
+6/17/14 12:52:46.284 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.284 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469f04d80
+6/17/14 12:52:46.284 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.284 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469f04be0
+6/17/14 12:52:46.285 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.285 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469f04a40
+6/17/14 12:52:46.285 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.285 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0e370
+6/17/14 12:52:46.285 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.285 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0e1d0
+6/17/14 12:52:46.285 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.285 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0e030
+6/17/14 12:52:46.286 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.286 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1c700
+6/17/14 12:52:46.286 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.286 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1c560
+6/17/14 12:52:46.286 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.286 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0dc50
+6/17/14 12:52:46.286 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.286 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0dab0
+6/17/14 12:52:46.286 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.287 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d910
+6/17/14 12:52:46.287 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.287 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d770
+6/17/14 12:52:46.287 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.287 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d5d0
+6/17/14 12:52:46.287 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.287 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d430
+6/17/14 12:52:46.287 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.287 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d290
+6/17/14 12:52:46.287 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.288 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d0f0
+6/17/14 12:52:46.288 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.288 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0cf50
+6/17/14 12:52:46.288 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.288 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0cdb0
+6/17/14 12:52:46.288 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.288 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0cc10
+6/17/14 12:52:46.288 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.288 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0ca70
+6/17/14 12:52:46.288 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.289 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c8d0
+6/17/14 12:52:46.289 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.289 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c730
+6/17/14 12:52:46.289 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.289 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c590
+6/17/14 12:52:46.289 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.289 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c3f0
+6/17/14 12:52:46.289 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.289 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c250
+6/17/14 12:52:46.289 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.290 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c0b0
+6/17/14 12:52:46.290 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.290 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0bf10
+6/17/14 12:52:46.290 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.290 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0bd70
+6/17/14 12:52:46.290 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.290 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0bbd0
+6/17/14 12:52:46.290 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.290 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0ba30
+6/17/14 12:52:46.291 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.291 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b890
+6/17/14 12:52:46.291 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.291 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b6f0
+6/17/14 12:52:46.291 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.291 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b550
+6/17/14 12:52:46.291 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.291 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b3b0
+6/17/14 12:52:46.292 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.292 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b210
+6/17/14 12:52:46.292 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.292 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b070
+6/17/14 12:52:46.292 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.292 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0aed0
+6/17/14 12:52:46.292 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.292 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0ad30
+6/17/14 12:52:46.293 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.293 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0ab90
+6/17/14 12:52:46.293 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.293 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a9f0
+6/17/14 12:52:46.293 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.293 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a850
+6/17/14 12:52:46.293 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.293 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a6b0
+6/17/14 12:52:46.293 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.294 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a510
+6/17/14 12:52:46.294 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.294 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a370
+6/17/14 12:52:46.294 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.294 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a1d0
+6/17/14 12:52:46.294 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.294 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a030
+6/17/14 12:52:46.294 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.294 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09e90
+6/17/14 12:52:46.294 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.295 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09cf0
+6/17/14 12:52:46.295 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.295 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09b50
+6/17/14 12:52:46.295 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.295 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c099b0
+6/17/14 12:52:46.295 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.295 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09810
+6/17/14 12:52:46.295 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.296 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09670
+6/17/14 12:52:46.296 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.296 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c094d0
+6/17/14 12:52:46.296 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.296 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09330
+6/17/14 12:52:46.296 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.296 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09190
+6/17/14 12:52:46.297 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.297 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08ff0
+6/17/14 12:52:46.297 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.297 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08e50
+6/17/14 12:52:46.297 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.297 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08cb0
+6/17/14 12:52:46.297 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.297 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08b10
+6/17/14 12:52:46.297 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.298 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08970
+6/17/14 12:52:46.298 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.298 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c087d0
+6/17/14 12:52:46.298 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.298 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08630
+6/17/14 12:52:46.298 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.298 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08490
+6/17/14 12:52:46.298 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.298 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c082f0
+6/17/14 12:52:46.299 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.299 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c06a90
+6/17/14 12:52:46.299 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.299 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0e500
+6/17/14 12:52:46.299 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.299 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0a200
+6/17/14 12:52:46.299 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.300 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0a060
+6/17/14 12:52:46.300 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.300 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e12ae0
+6/17/14 12:52:46.300 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.300 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e12940
+6/17/14 12:52:46.300 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.300 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e021a0
+6/17/14 12:52:46.301 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.301 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e13300
+6/17/14 12:52:46.301 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.301 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e11b30
+6/17/14 12:52:46.302 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.302 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0ca90
+6/17/14 12:52:46.302 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.302 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e03690
+6/17/14 12:52:46.302 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.302 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0f500
+6/17/14 12:52:46.303 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.303 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e1b010
+6/17/14 12:52:46.303 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.303 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0ed00
+6/17/14 12:52:46.303 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.303 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e07b60
+6/17/14 12:52:46.303 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.303 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0e1a0
+6/17/14 12:52:46.304 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.304 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0a570
+6/17/14 12:52:46.304 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.304 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e1cdb0
+6/17/14 12:52:46.304 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.304 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e19fc0
+6/17/14 12:52:46.304 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.304 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e12fa0
+6/17/14 12:52:46.304 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.305 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d0a380
+6/17/14 12:52:46.305 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.305 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d079e0
+6/17/14 12:52:46.305 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.305 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e1fbc0
+6/17/14 12:52:46.305 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.305 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e1da20
+6/17/14 12:52:46.305 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.306 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d0bab0
+6/17/14 12:52:46.306 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.306 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d16330
+6/17/14 12:52:46.306 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.307 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d0e3f0
+6/17/14 12:52:46.307 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.307 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d16190
+6/17/14 12:52:46.307 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.307 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d15ff0
+6/17/14 12:52:46.307 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.307 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d15e50
+6/17/14 12:52:46.307 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.307 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d15cb0
+6/17/14 12:52:46.308 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.308 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d15b10
+6/17/14 12:52:46.308 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.308 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d15970
+6/17/14 12:52:46.308 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.308 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d08a60
+6/17/14 12:52:46.308 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.308 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e1fa20
+6/17/14 12:52:46.308 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.309 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e02c40
+6/17/14 12:52:46.309 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:46.309 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e024d0
+6/17/14 12:52:46.309 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.309 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1cfc0
+6/17/14 12:52:46.309 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.309 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1ce20
+6/17/14 12:52:46.310 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.310 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1cbe0
+6/17/14 12:52:46.310 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.310 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1ca40
+6/17/14 12:52:46.310 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.311 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1c8a0
+6/17/14 12:52:46.311 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.311 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e21460
+6/17/14 12:52:46.311 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.311 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e20df0
+6/17/14 12:52:46.311 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.311 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e212c0
+6/17/14 12:52:46.311 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.312 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0e6b0
+6/17/14 12:52:46.312 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.312 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0e510
+6/17/14 12:52:46.312 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.312 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469f098b0
+6/17/14 12:52:46.312 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.313 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469f09710
+6/17/14 12:52:46.313 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.313 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469f04d80
+6/17/14 12:52:46.313 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.313 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469f04be0
+6/17/14 12:52:46.313 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.313 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469f04a40
+6/17/14 12:52:46.314 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.314 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0e370
+6/17/14 12:52:46.314 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.314 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0e1d0
+6/17/14 12:52:46.314 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.314 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0e030
+6/17/14 12:52:46.314 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.314 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1c700
+6/17/14 12:52:46.315 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.315 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1c560
+6/17/14 12:52:46.315 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.315 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0dc50
+6/17/14 12:52:46.315 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.315 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0dab0
+6/17/14 12:52:46.315 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.315 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d910
+6/17/14 12:52:46.316 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.316 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d770
+6/17/14 12:52:46.316 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.316 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d5d0
+6/17/14 12:52:46.316 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.316 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d430
+6/17/14 12:52:46.316 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.317 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d290
+6/17/14 12:52:46.317 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.317 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d0f0
+6/17/14 12:52:46.317 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.317 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0cf50
+6/17/14 12:52:46.317 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.317 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0cdb0
+6/17/14 12:52:46.317 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.318 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0cc10
+6/17/14 12:52:46.318 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.318 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0ca70
+6/17/14 12:52:46.318 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.318 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c8d0
+6/17/14 12:52:46.318 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.318 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c730
+6/17/14 12:52:46.319 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.319 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c590
+6/17/14 12:52:46.319 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.319 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c3f0
+6/17/14 12:52:46.319 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.319 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c250
+6/17/14 12:52:46.319 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.319 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c0b0
+6/17/14 12:52:46.320 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.320 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0bf10
+6/17/14 12:52:46.320 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.320 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0bd70
+6/17/14 12:52:46.320 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.320 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0bbd0
+6/17/14 12:52:46.320 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.321 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0ba30
+6/17/14 12:52:46.321 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.321 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b890
+6/17/14 12:52:46.321 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.321 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b6f0
+6/17/14 12:52:46.321 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.321 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b550
+6/17/14 12:52:46.321 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.322 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b3b0
+6/17/14 12:52:46.322 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.322 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b210
+6/17/14 12:52:46.322 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.322 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b070
+6/17/14 12:52:46.322 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.322 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0aed0
+6/17/14 12:52:46.323 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.323 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0ad30
+6/17/14 12:52:46.323 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.323 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0ab90
+6/17/14 12:52:46.323 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.323 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a9f0
+6/17/14 12:52:46.324 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.324 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a850
+6/17/14 12:52:46.324 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.324 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a6b0
+6/17/14 12:52:46.324 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.324 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a510
+6/17/14 12:52:46.324 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.325 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a370
+6/17/14 12:52:46.325 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.325 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a1d0
+6/17/14 12:52:46.325 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.325 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a030
+6/17/14 12:52:46.326 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.326 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09e90
+6/17/14 12:52:46.326 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.326 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09cf0
+6/17/14 12:52:46.326 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.326 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09b50
+6/17/14 12:52:46.326 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.326 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c099b0
+6/17/14 12:52:46.327 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.327 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09810
+6/17/14 12:52:46.327 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.327 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09670
+6/17/14 12:52:46.327 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.327 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c094d0
+6/17/14 12:52:46.327 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.328 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09330
+6/17/14 12:52:46.328 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.328 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09190
+6/17/14 12:52:46.328 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.328 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08ff0
+6/17/14 12:52:46.328 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.328 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08e50
+6/17/14 12:52:46.329 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.329 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08cb0
+6/17/14 12:52:46.329 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.329 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08b10
+6/17/14 12:52:46.329 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.329 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08970
+6/17/14 12:52:46.329 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.329 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c087d0
+6/17/14 12:52:46.330 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.330 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08630
+6/17/14 12:52:46.330 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.330 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08490
+6/17/14 12:52:46.330 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.330 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c082f0
+6/17/14 12:52:46.330 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.330 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c06a90
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0e500
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0a200
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0a060
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e12ae0
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e12940
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.331 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e021a0
+6/17/14 12:52:46.332 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.332 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e13300
+6/17/14 12:52:46.332 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.332 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e11b30
+6/17/14 12:52:46.332 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.333 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0ca90
+6/17/14 12:52:46.333 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.333 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e03690
+6/17/14 12:52:46.333 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.333 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0f500
+6/17/14 12:52:46.333 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.333 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e1b010
+6/17/14 12:52:46.334 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.334 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0ed00
+6/17/14 12:52:46.334 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.334 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e07b60
+6/17/14 12:52:46.334 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.334 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0e1a0
+6/17/14 12:52:46.334 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.335 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0a570
+6/17/14 12:52:46.335 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.335 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e1cdb0
+6/17/14 12:52:46.335 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.335 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e19fc0
+6/17/14 12:52:46.335 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.335 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e12fa0
+6/17/14 12:52:46.336 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.336 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d0a380
+6/17/14 12:52:46.336 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.336 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d079e0
+6/17/14 12:52:46.336 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.336 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e1fbc0
+6/17/14 12:52:46.337 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.337 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e1da20
+6/17/14 12:52:46.337 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.337 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d0bab0
+6/17/14 12:52:46.337 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.337 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d16330
+6/17/14 12:52:46.337 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.337 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d0e3f0
+6/17/14 12:52:46.337 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.337 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d16190
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d15ff0
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d15e50
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d15cb0
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d15b10
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d15970
+6/17/14 12:52:46.338 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.339 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d08a60
+6/17/14 12:52:46.339 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.339 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e1fa20
+6/17/14 12:52:46.339 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.339 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e02c40
+6/17/14 12:52:46.339 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:46.339 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e024d0
+6/17/14 12:52:47.162 PM	Activity Monitor[40174]	NStatManagerQueryAllSources:2106 querying all sources
+6/17/14 12:52:47.163 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.163 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1cfc0
+6/17/14 12:52:47.163 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.163 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1ce20
+6/17/14 12:52:47.163 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.163 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1cbe0
+6/17/14 12:52:47.163 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.164 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1ca40
+6/17/14 12:52:47.164 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.164 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1c8a0
+6/17/14 12:52:47.164 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.164 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e21460
+6/17/14 12:52:47.164 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.164 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e20df0
+6/17/14 12:52:47.164 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.164 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e212c0
+6/17/14 12:52:47.165 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.165 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0e6b0
+6/17/14 12:52:47.165 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.165 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0e510
+6/17/14 12:52:47.165 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.165 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469f098b0
+6/17/14 12:52:47.165 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.165 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469f09710
+6/17/14 12:52:47.165 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.166 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469f04d80
+6/17/14 12:52:47.166 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.166 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469f04be0
+6/17/14 12:52:47.166 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.166 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469f04a40
+6/17/14 12:52:47.166 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.166 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0e370
+6/17/14 12:52:47.166 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.166 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0e1d0
+6/17/14 12:52:47.167 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.167 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0e030
+6/17/14 12:52:47.167 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.167 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1c700
+6/17/14 12:52:47.167 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.167 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d1c560
+6/17/14 12:52:47.167 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.167 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0dc50
+6/17/14 12:52:47.167 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.168 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0dab0
+6/17/14 12:52:47.168 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.168 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d910
+6/17/14 12:52:47.168 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.168 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d770
+6/17/14 12:52:47.168 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.168 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d5d0
+6/17/14 12:52:47.168 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.168 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d430
+6/17/14 12:52:47.169 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.169 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d290
+6/17/14 12:52:47.169 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.169 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0d0f0
+6/17/14 12:52:47.169 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.169 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0cf50
+6/17/14 12:52:47.169 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.169 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0cdb0
+6/17/14 12:52:47.169 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.169 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0cc10
+6/17/14 12:52:47.170 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.170 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0ca70
+6/17/14 12:52:47.170 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.170 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c8d0
+6/17/14 12:52:47.170 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.170 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c730
+6/17/14 12:52:47.170 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.170 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c590
+6/17/14 12:52:47.170 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.171 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c3f0
+6/17/14 12:52:47.171 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.171 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c250
+6/17/14 12:52:47.171 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.171 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0c0b0
+6/17/14 12:52:47.171 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.171 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0bf10
+6/17/14 12:52:47.171 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.171 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0bd70
+6/17/14 12:52:47.172 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.172 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0bbd0
+6/17/14 12:52:47.172 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.172 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0ba30
+6/17/14 12:52:47.172 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.172 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b890
+6/17/14 12:52:47.172 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.173 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b6f0
+6/17/14 12:52:47.173 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.173 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b550
+6/17/14 12:52:47.173 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.173 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b3b0
+6/17/14 12:52:47.173 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.173 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b210
+6/17/14 12:52:47.173 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0b070
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0aed0
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0ad30
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0ab90
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a9f0
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a850
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a6b0
+6/17/14 12:52:47.174 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a510
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a370
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a1d0
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c0a030
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09e90
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09cf0
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.175 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09b50
+6/17/14 12:52:47.176 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.176 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c099b0
+6/17/14 12:52:47.176 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.176 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09810
+6/17/14 12:52:47.176 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.176 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09670
+6/17/14 12:52:47.176 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.176 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c094d0
+6/17/14 12:52:47.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.177 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09330
+6/17/14 12:52:47.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.177 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c09190
+6/17/14 12:52:47.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.177 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08ff0
+6/17/14 12:52:47.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.177 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08e50
+6/17/14 12:52:47.177 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.178 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08cb0
+6/17/14 12:52:47.178 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.178 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08b10
+6/17/14 12:52:47.178 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.178 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08970
+6/17/14 12:52:47.178 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.178 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c087d0
+6/17/14 12:52:47.178 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.178 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08630
+6/17/14 12:52:47.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.179 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c08490
+6/17/14 12:52:47.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.179 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c082f0
+6/17/14 12:52:47.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.179 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469c06a90
+6/17/14 12:52:47.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.179 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0e500
+6/17/14 12:52:47.179 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.180 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0a200
+6/17/14 12:52:47.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.180 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0a060
+6/17/14 12:52:47.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.180 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e12ae0
+6/17/14 12:52:47.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.180 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e12940
+6/17/14 12:52:47.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.180 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e021a0
+6/17/14 12:52:47.180 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.181 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e13300
+6/17/14 12:52:47.181 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.181 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e11b30
+6/17/14 12:52:47.181 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.181 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0ca90
+6/17/14 12:52:47.181 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.181 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e03690
+6/17/14 12:52:47.181 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.181 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0f500
+6/17/14 12:52:47.182 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.182 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e1b010
+6/17/14 12:52:47.182 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.182 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0ed00
+6/17/14 12:52:47.182 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.182 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e07b60
+6/17/14 12:52:47.182 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.182 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0e1a0
+6/17/14 12:52:47.182 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.182 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e0a570
+6/17/14 12:52:47.183 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.183 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e1cdb0
+6/17/14 12:52:47.183 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.183 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e19fc0
+6/17/14 12:52:47.183 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.183 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e12fa0
+6/17/14 12:52:47.183 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.183 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d0a380
+6/17/14 12:52:47.183 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.183 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d079e0
+6/17/14 12:52:47.184 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.184 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e1fbc0
+6/17/14 12:52:47.184 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.184 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e1da20
+6/17/14 12:52:47.184 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.184 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d0bab0
+6/17/14 12:52:47.184 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.184 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d16330
+6/17/14 12:52:47.184 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.184 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d0e3f0
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d16190
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d15ff0
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d15e50
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d15cb0
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d15b10
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d15970
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469d08a60
+6/17/14 12:52:47.185 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e1fa20
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e02c40
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcCounts:1538 recieved a SRC_COUNTS message
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerSourceCounts:1513 calling the Counts callback for 0x7fd469e024d0
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1cfc0
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1ce20
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1cbe0
+6/17/14 12:52:47.186 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.187 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1ca40
+6/17/14 12:52:47.187 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.187 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1c8a0
+6/17/14 12:52:47.187 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.187 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e21460
+6/17/14 12:52:47.187 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.187 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e20df0
+6/17/14 12:52:47.187 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.187 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e212c0
+6/17/14 12:52:47.188 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.188 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0e6b0
+6/17/14 12:52:47.188 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.188 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0e510
+6/17/14 12:52:47.188 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.188 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469f098b0
+6/17/14 12:52:47.188 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.188 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469f09710
+6/17/14 12:52:47.189 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.189 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469f04d80
+6/17/14 12:52:47.189 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.189 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469f04be0
+6/17/14 12:52:47.189 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.189 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469f04a40
+6/17/14 12:52:47.189 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.189 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0e370
+6/17/14 12:52:47.189 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.190 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0e1d0
+6/17/14 12:52:47.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.190 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0e030
+6/17/14 12:52:47.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.190 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1c700
+6/17/14 12:52:47.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.190 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d1c560
+6/17/14 12:52:47.190 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.190 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0dc50
+6/17/14 12:52:47.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.191 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0dab0
+6/17/14 12:52:47.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.191 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d910
+6/17/14 12:52:47.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.191 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d770
+6/17/14 12:52:47.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.191 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d5d0
+6/17/14 12:52:47.191 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.191 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d430
+6/17/14 12:52:47.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.192 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d290
+6/17/14 12:52:47.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.192 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0d0f0
+6/17/14 12:52:47.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.192 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0cf50
+6/17/14 12:52:47.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.192 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0cdb0
+6/17/14 12:52:47.192 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.193 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0cc10
+6/17/14 12:52:47.193 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.193 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0ca70
+6/17/14 12:52:47.193 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.193 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c8d0
+6/17/14 12:52:47.193 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.193 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c730
+6/17/14 12:52:47.193 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.193 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c590
+6/17/14 12:52:47.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.194 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c3f0
+6/17/14 12:52:47.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.194 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c250
+6/17/14 12:52:47.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.194 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0c0b0
+6/17/14 12:52:47.194 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.194 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0bf10
+6/17/14 12:52:47.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.195 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0bd70
+6/17/14 12:52:47.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.195 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0bbd0
+6/17/14 12:52:47.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.195 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0ba30
+6/17/14 12:52:47.195 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.195 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b890
+6/17/14 12:52:47.196 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.196 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b6f0
+6/17/14 12:52:47.196 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.196 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b550
+6/17/14 12:52:47.196 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.196 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b3b0
+6/17/14 12:52:47.196 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.197 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b210
+6/17/14 12:52:47.197 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.197 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0b070
+6/17/14 12:52:47.197 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.197 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0aed0
+6/17/14 12:52:47.197 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.197 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0ad30
+6/17/14 12:52:47.198 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.198 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0ab90
+6/17/14 12:52:47.198 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.198 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a9f0
+6/17/14 12:52:47.198 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.198 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a850
+6/17/14 12:52:47.198 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.198 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a6b0
+6/17/14 12:52:47.199 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.199 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a510
+6/17/14 12:52:47.199 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.199 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a370
+6/17/14 12:52:47.199 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.199 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a1d0
+6/17/14 12:52:47.199 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.199 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c0a030
+6/17/14 12:52:47.200 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.200 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09e90
+6/17/14 12:52:47.200 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.200 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09cf0
+6/17/14 12:52:47.200 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.200 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09b50
+6/17/14 12:52:47.200 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.200 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c099b0
+6/17/14 12:52:47.201 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.201 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09810
+6/17/14 12:52:47.201 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.201 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09670
+6/17/14 12:52:47.201 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.201 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c094d0
+6/17/14 12:52:47.201 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.201 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09330
+6/17/14 12:52:47.202 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.202 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c09190
+6/17/14 12:52:47.202 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.202 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08ff0
+6/17/14 12:52:47.202 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.202 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08e50
+6/17/14 12:52:47.202 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.202 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08cb0
+6/17/14 12:52:47.203 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.203 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08b10
+6/17/14 12:52:47.203 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.203 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08970
+6/17/14 12:52:47.203 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.203 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c087d0
+6/17/14 12:52:47.203 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.203 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08630
+6/17/14 12:52:47.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.204 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c08490
+6/17/14 12:52:47.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.204 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c082f0
+6/17/14 12:52:47.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.204 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469c06a90
+6/17/14 12:52:47.204 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.205 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0e500
+6/17/14 12:52:47.205 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.205 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0a200
+6/17/14 12:52:47.205 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.205 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0a060
+6/17/14 12:52:47.205 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.206 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e12ae0
+6/17/14 12:52:47.206 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.206 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e12940
+6/17/14 12:52:47.206 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.206 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e021a0
+6/17/14 12:52:47.206 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.206 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e13300
+6/17/14 12:52:47.207 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.207 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e11b30
+6/17/14 12:52:47.207 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.207 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0ca90
+6/17/14 12:52:47.207 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.207 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e03690
+6/17/14 12:52:47.207 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.208 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0f500
+6/17/14 12:52:47.208 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.208 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e1b010
+6/17/14 12:52:47.208 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.208 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0ed00
+6/17/14 12:52:47.208 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.208 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e07b60
+6/17/14 12:52:47.208 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.209 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0e1a0
+6/17/14 12:52:47.209 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.209 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e0a570
+6/17/14 12:52:47.209 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.209 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e1cdb0
+6/17/14 12:52:47.209 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.209 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e19fc0
+6/17/14 12:52:47.209 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.210 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e12fa0
+6/17/14 12:52:47.210 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.210 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d0a380
+6/17/14 12:52:47.210 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.210 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d079e0
+6/17/14 12:52:47.210 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.210 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e1fbc0
+6/17/14 12:52:47.210 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.211 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e1da20
+6/17/14 12:52:47.211 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.211 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d0bab0
+6/17/14 12:52:47.211 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.211 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d16330
+6/17/14 12:52:47.211 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.211 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d0e3f0
+6/17/14 12:52:47.211 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.212 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d16190
+6/17/14 12:52:47.212 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.212 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d15ff0
+6/17/14 12:52:47.212 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.212 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d15e50
+6/17/14 12:52:47.212 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.212 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d15cb0
+6/17/14 12:52:47.213 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.213 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d15b10
+6/17/14 12:52:47.213 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.213 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d15970
+6/17/14 12:52:47.213 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.213 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469d08a60
+6/17/14 12:52:47.214 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.214 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e1fa20
+6/17/14 12:52:47.214 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.214 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e02c40
+6/17/14 12:52:47.214 PM	Activity Monitor[40174]	NStatManagerHandleSrcDescriptor:1218 received SRC_DESCRIPTOR message
+6/17/14 12:52:47.215 PM	Activity Monitor[40174]	NStatManagerSourceDescriptor:1136 calling the Descriptor callback for src 0x7fd469e024d0
